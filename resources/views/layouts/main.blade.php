@@ -144,7 +144,7 @@
             <li><a wire:navigate.hover href="{{ url('about') }}">About</a></li>
             <li><a wire:navigate.hover href="{{ url('contact-us') }}">Contact</a></li>
             <li><a wire:navigate.hover href="{{ route('bootcamp') }}">BootCamp</a></li>
-            <li><a wire:navigate.hover href="{{ route('supports.index') }}">Blog</a></li>
+            <!-- <li><a wire:navigate.hover href="{{ route('supports.index') }}">Blog</a></li> -->
           </ul>
         </div>
       </div>
@@ -158,9 +158,9 @@
               <li>
                 <a wire:navigate.hover href="{{ route('services.index') }}">what we do</a>
               </li>
-              <li>
+              <!-- <li>
                 <a wire:navigate.hover href="{{ route('supports.index') }}">Blog</a>
-              </li>
+              </li> -->
               <li>
                 <a wire:navigate.hover href="{{ route('bootcamp') }}">BootCamp</a>
               </li>
@@ -219,7 +219,7 @@
                       <li><a wire:navigate.hover href="{{ url('about') }}">About Company</a></li>
                       <li><a wire:navigate.hover href="{{ url('portfolio') }}">Case Study</a></li>
                       <li><a wire:navigate.hover href="{{ route('services.index') }}">Services</a></li>
-                      <li><a wire:navigate.hover href="{{ route('supports.index') }}">Blog</a></li>
+                      <!-- <li><a wire:navigate.hover href="{{ route('supports.index') }}">Blog</a></li> -->
                       <li><a wire:navigate.hover href="{{ route('bootcamp') }}">BootCamp</a></li>
                       <li><a wire:navigate.hover href="{{ url('contact') }}">Contact</a></li>
                     </ul>
@@ -231,7 +231,7 @@
                       <li>13, Opeyemi Crescent, Magodo GRA 1, Mogodo, Lagos 023456</li>
                       <li><a wire:navigate.hover href="tel:+2349035155129" class="phone">Call </a></li>
                       <li><a wire:navigate.hover href="mailto:support@webshoptechnology.com">Mail </a></li>
-                      <li><a wire:navigate.hover href="{{ route('supports.index') }}">Blog </a></li>
+                      <!-- <li><a wire:navigate.hover href="{{ route('supports.index') }}">Blog </a></li> -->
                     </ul>
                   </div>
 
