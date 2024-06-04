@@ -54,15 +54,15 @@ Route::get('/portfolio', function () {
     return view('portfolio');
 });
 
-Route::controller(SupportController::class)->group(function () {
-    Route::get('/supports', 'index')->name('supports.index');
-    Route::get('/support/create', 'create')->name('supports.create');
-    Route::post('/supports', 'store')->name('supports.store');
-    Route::get('/supports/{support:slug}', 'show')->name('supports.show');
-    Route::get('/supports/{support}/edit', 'edit')->name('supports.edit');
-    Route::put('/supports/{support}/update', 'update')->name('supports.update');
-    Route::delete('/supports/{support}/delete', 'destroy')->name('supports.destroy');
-});
+// Route::controller(SupportController::class)->group(function () {
+//     Route::get('/supports', 'index')->name('supports.index');
+//     Route::get('/support/create', 'create')->name('supports.create');
+//     Route::post('/supports', 'store')->name('supports.store');
+//     Route::get('/supports/{support:slug}', 'show')->name('supports.show');
+//     Route::get('/supports/{support}/edit', 'edit')->name('supports.edit');
+//     Route::put('/supports/{support}/update', 'update')->name('supports.update');
+//     Route::delete('/supports/{support}/delete', 'destroy')->name('supports.destroy');
+// });
 
 Route::get('/support', function () {
     header('Cache-Control: public, max-age=604800');
