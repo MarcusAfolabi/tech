@@ -221,7 +221,7 @@
                       <li><a wire:navigate.hover href="{{ route('services.index') }}">Services</a></li>
                       <!-- <li><a wire:navigate.hover href="{{ route('supports.index') }}">Blog</a></li> -->
                       <li><a wire:navigate.hover href="{{ route('bootcamp') }}">BootCamp</a></li>
-                      <li><a wire:navigate.hover href="{{ url('contact') }}">Contact</a></li>
+                      <li><a wire:navigate.hover href="{{ url('contact-us') }}">Contact</a></li>
                     </ul>
                   </div>
 
