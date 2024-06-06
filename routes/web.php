@@ -10,6 +10,10 @@ Route::get('/', function () {
     header('Cache-Control: public, max-age=604800');
     return view('welcome');
 });
+Route::get('/moradeke', function () {
+    header('Cache-Control: public, max-age=604800');
+    return view('moradeke');
+});
 
 Route::get('/about', function () {
     header('Cache-Control: public, max-age=604800');
