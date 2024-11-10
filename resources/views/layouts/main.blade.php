@@ -64,19 +64,18 @@
   <meta property="og:description" content="Webshop Technology Bring New Values to Brands" />
   <meta property="og:url" content="https://webshoptechnology.com/" />
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6487824117243144"
+     crossorigin="anonymous"></script>
+     
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W185HBTFTT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ESV2PLT030"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'G-ESV2PLT030');
-  </script>
+  gtag('config', 'G-W185HBTFTT');
+</script>
   @livewireStyles
   @vite('resources/css/app.css')
 </head>
